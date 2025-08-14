@@ -1,0 +1,83 @@
+PAGE 1
+let friends = 500
+print(friends)
+
+print("The code won't because a constant can't be changed once it's initialized.")
+
+PAGE 2
+let goalSteps: Int
+goalSteps = 10000
+
+print("Your step goal for the day is:")
+print(goalSteps)
+
+PAGE 3
+var schooling = 12
+print(schooling)
+
+schooling = schooling + 1
+print(schooling)
+
+PAGE 4
+print("The code above compile because variable can be updated, but costant cannot.")
+
+PAGE 5
+var steps = 0
+print(steps)
+
+steps += 2000
+print(steps)
+
+PAGE 6
+var numberOfLikes = 150
+var numberOfComments = 20
+let yearCreated = 2025
+let monthCreated = 8
+let dayCreated = 14
+
+PAGE 7
+let Name = "Jumaa Kitendo"
+print(Name)
+print("this is constate because I'm not going to change my name")
+var Age = 19
+print(Age)
+print("Age changes every year that's why I use variables")
+var numberOfStepsTakenToday = 2547
+print(numberOfStepsTakenToday)
+print("Number of Steps can change depends on the day")
+var goalNumberOfSteps = 3000
+print(goalNumberOfSteps)
+print("A goal can change depends on an individual and day")
+var avarageHeartRate = 72
+print(avarageHeartRate)
+print("Also Heart rate can change depends on an activity a person is doing")
+
+PAGE 8
+var firstDecimal = 2.34
+var secondDecimal = 3.21
+
+var trueOrFalse = true
+
+print("The code doesn't compile because the types are different.")
+
+var place = "Tanzania"
+
+print("The code doesn't compile because the types are different.")
+
+
+PAGE 9
+var wholeNumber = 34  // whole number is int type but firstDecimal is double type
+print("The code won't compile because the types is different.")
+
+var hasMetStepGoal = false
+
+var name: String
+
+// The code cannot compile
+
+name = "Jumaa"
+print(name)
+
+var distanceTraveled: Double = 0
+
+distanceTraveled = 54.3
