@@ -1,0 +1,31 @@
+import UIKit
+
+class ViewController: UIViewController {
+
+    // The function was missing )
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        // I had to change the sample to constant
+        let sample = "sample"
+        print(sample)
+        
+        if false {
+            print("Will this line of code ever be reached?")
+            
+        }
+        // I had to remove this line of the code
+        
+    }
+    
+    func someMethod() {
+    
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+
+}
